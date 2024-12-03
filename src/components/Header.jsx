@@ -12,7 +12,7 @@ const Header = ({ setListImages, setIsLoading }) => {
     try {
       setIsLoading(true);
       const response = await fetch(
-        "https://genieart-api-production-62aa.up.railway.app/openai/images",
+        "https://genieart-api-production-d488.up.railway.app/openai/images",
         {
           method: "POST",
           headers: {
